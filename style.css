@@ -5,26 +5,29 @@ body {
 }
 
 h1 {
+    width: 100%;
     margin-top: 10%;
-    margin-left: 18%;
-    font-size: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 4em;
     font-family: 'Kodchasan', sans-serif;
     color: #FFFFFF;
 }
 
 h2 {
     width: 100%;
-    margin-left: 18%;
-    font-size: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2em;
     font-family: 'Kodchasan', sans-serif;
     color: #FFFFFF;
 
 }
 
-
 ul {
     list-style-type: none;
-    margin: 50px;
+    margin-top: 2%;
+    margin-left: 3%;
     padding: 0;
     overflow: hidden;
     background-color: #1D1D1D;
@@ -38,7 +41,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.3em;
     font-family: 'Kodchasan', sans-serif;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,46 +52,47 @@ li a:hover {
 }
 
 .contact {
-    margin-left: 50px;
-    margin-top: 100px;
-    width: 50px;
-    height: 50px;
-    left: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 3%;
+    height: 3%;
 }
 
-div {
-    margin-top: 22%;
-    margin-bottom: 3%;
+#contact {
+    padding-top: 10%;
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 10%;
 }
 
-/*
-.linkedin {
-    width: 50px;
-    height: 50px;
-    margin: 50px;
+#introduction {
+    width: 90%;
+    height: 30%;
 }
 
-.twitter {
-    margin: 50px;
-    width: 50px;
-    height: 50px;
+article {
+    width: 100%;
+    height: 50%;
 }
 
-.github {
-    margin: 50px;
-    width: 50px;
-    height: 50px;
+.project {
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 10%;
+    width: 40%;
+    height: 40%;
 }
 
-.instagram {
-    margin: 50px;
-    width: 50px;
-    height: 50px;
-}
-*/
+
+
+
+
+
+
 
 
 
