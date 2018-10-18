@@ -39,7 +39,6 @@ ul {
     height: 10%;
 }
 
-
 #logo {
     margin-right: 6%;
     margin-top: 1.2%;
@@ -50,7 +49,7 @@ ul {
 
 a {
     color: #FFFFFF;
-    text-decoration: none;        /* no text color or underlines in hyperlinks*/
+    text-decoration: none; /* no text color or underlines in hyperlinks*/
 }
 
 a:hover {
@@ -97,13 +96,13 @@ h2 {
 
 .project {
     text-align: center;
-    margin-bottom: 4%;   /* leave some space between pictures and texts */
+    margin-bottom: 4%; /* leave some space between pictures and texts */
     margin-top: 20%;
     width: 75%;
     height: 50%;
 }
 
-table {
+#hometable {
     text-align: center;
     width: 100%;
 }
@@ -125,10 +124,7 @@ table {
     font-family: 'Kodchasan', sans-serif;
 }
 
-
-
 /********** About Page **********/
-
 
 #a1 {
     float: left;
@@ -183,11 +179,76 @@ h4 {
     font-family: 'Kodchasan', sans-serif;
 }
 
-
-
-
-
 /********** Blog Page **********/
+
+.tableheader {
+    font-size: 2em;
+    font-family: 'Kodchasan', sans-serif;
+    color: #FFFFFF;
+    padding-top: 5%;
+
+    height: 3em;
+    width: 22.5%;
+
+}
+
+#blogtable {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    border-spacing: 15px 15px;
+}
+
+.web {
+    font-size: 1.3em;
+    font-family: 'Kodchasan', sans-serif;
+    color: #FFFFFF;
+    height: 10em;
+    width: 22.5%;
+    border: 5px solid white;
+    background: slateblue;
+}
+
+.app {
+    font-size: 1.3em;
+    font-family: 'Kodchasan', sans-serif;
+    color: #FFFFFF;
+    height: 10em;
+    width: 22.5%;
+    border: 5px solid white;
+    background: darkslategrey;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    font-family: 'Kodchasan', sans-serif;
+    margin: 1%;
+}
+
+h5 {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    font-family: 'Kodchasan', sans-serif;
+    margin: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
