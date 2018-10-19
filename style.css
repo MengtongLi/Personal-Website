@@ -181,15 +181,13 @@ h4 {
 
 /********** Blog Page **********/
 
-.tableheader {
+.tableheader1 {
     font-size: 2em;
     font-family: 'Kodchasan', sans-serif;
     color: #FFFFFF;
     padding-top: 5%;
-
     height: 3em;
     width: 22.5%;
-
 }
 
 #blogtable {
@@ -206,7 +204,7 @@ h4 {
     height: 10em;
     width: 22.5%;
     border: 5px solid white;
-    background: slateblue;
+    background: #395C6B;
 }
 
 .app {
@@ -216,7 +214,7 @@ h4 {
     height: 10em;
     width: 22.5%;
     border: 5px solid white;
-    background: darkslategrey;
+    background: #937D64;
 }
 
 p {
@@ -237,13 +235,31 @@ h5 {
     margin: 1%;
 }
 
+.tableheader2 {
+    font-size: 2em;
+    font-family: 'Kodchasan', sans-serif;
+    color: #FFFFFF;
+    height: 3em;
+    width: 22.5%;
+    text-align: left;
+    padding-left: 5%;
+}
 
+#videotable {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    border-spacing: 15px 15px;
+}
 
-
-
-
-
-
+h6 {
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    font-family: 'Kodchasan', sans-serif;
+    margin-top: 10%;
+}
 
 
 
