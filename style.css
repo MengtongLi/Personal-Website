@@ -29,7 +29,6 @@ ul {
     margin-bottom: 1%;
     margin-top: 1%;
     width: 3%;
-    height: 3%;
 }
 
 #contact {
@@ -39,11 +38,29 @@ ul {
     height: 10%;
 }
 
+@media all and (max-width: 800px) {
+    .contact {
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        width: 5%;
+    }
+
+    h6 {
+        text-align: center;
+        width: 100%;
+        color: #FFFFFF;
+        font-size: 0.5em;
+        font-family: 'Kodchasan', sans-serif;
+        margin-top: 10%;
+    }
+}
+
 #logo {
     margin-right: 6%;
     margin-top: 1.2%;
     width: 4%;
-    height: 4%;
     float: right;
 }
 
@@ -187,6 +204,11 @@ h4 {
     border-spacing: 15px 15px;
 }
 
+#blogtable td {
+    width: 25%;
+    /*    border: 5px solid white;*/
+}
+
 .research {
     font-size: 1.3em;
     font-family: 'Kodchasan', sans-serif;
@@ -249,22 +271,11 @@ h5 {
     margin: 1%;
 }
 
-.tableheader2 {
-    font-size: 2em;
-    font-family: 'Kodchasan', sans-serif;
-    color: #FFFFFF;
-    height: 3em;
-    width: 22.5%;
-    text-align: left;
-    padding-left: 5%;
-    padding-top: 5%;
-}
-
 #videotable {
     text-align: center;
     width: 90%;
     margin-left: 5%;
-    border-spacing: 15px 15px;
+    border-spacing: 50px;
 }
 
 h6 {
@@ -280,7 +291,7 @@ h6 {
     text-align: center;
     width: 100%;
     color: #FFFFFF;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Kodchasan', sans-serif;
     margin-top: 10%;
 }
@@ -300,6 +311,16 @@ h6 {
     height: 0;
 }
 
+@media all and (max-width: 800px) {
+    #blogtable td {
+        vertical-align: center;
+        width: 100%;
 
+        display: block;
+    }
 
-
+    #videotable td {
+        display: block;
+        height: 100px;
+    }
+}
