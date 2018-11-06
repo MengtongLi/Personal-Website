@@ -187,15 +187,6 @@ h3 {
     color: #FFFFFF;
 }
 
-h4 {
-    width: 60%;
-    text-align: left;
-    margin-left: 30%;
-    margin-right: 10%;
-    color: #FFFFFF;
-    font-size: 1.5em;
-    font-family: 'Kodchasan', sans-serif;
-}
 
 /********** Blog Page **********/
 
@@ -264,13 +255,14 @@ p {
     margin: 1%;
 }
 
-h5 {
+.name {
     width: 100%;
     text-align: center;
     color: #FFFFFF;
     font-size: 1.3em;
     font-family: 'Kodchasan', sans-serif;
     margin: 1%;
+    font-weight: bold;
 }
 
 #videotable {
@@ -278,15 +270,6 @@ h5 {
     width: 90%;
     margin-left: 5%;
     border-spacing: 50px;
-}
-
-h6 {
-    text-align: center;
-    width: 100%;
-    color: #FFFFFF;
-    font-size: 1.3em;
-    font-family: 'Kodchasan', sans-serif;
-    margin-top: 10%;
 }
 
 #videotablecaption {
