@@ -80,7 +80,7 @@ a:hover {
 /********** Home Page **********/
 
 h1 {
-    width: 90%;
+    width: 80%;
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
@@ -90,7 +90,7 @@ h1 {
 }
 
 h2 {
-    width: 90%;
+    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 2em;
@@ -247,7 +247,7 @@ h3 {
 }
 
 p {
-    width: 100%;
+    width: 99%;
     text-align: center;
     color: #FFFFFF;
     font-size: 0.8em;
